@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gerenciador de Estudos</h1>
+            <p>Adicione suas matérias e conteúdos para estudar</p>
+        </header>
+
+        <div class="add-subject">
+            <input type="text" id="subject-input" placeholder="Nome da Matéria">
+            <button id="add-subject-btn">Adicionar Matéria</button>
+        </div>
+
+        <div id="subjects-container"></div>
+
+        <div style="margin-top: 20px;">
+            <button id="save-button">Salvar Dados</button>
+            <button id="load-button">Carregar Dados</button>
+            <input type="file" id="file-input" style="display: none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

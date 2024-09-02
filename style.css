@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.add-subject {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.add-subject input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #00796B;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004D40;
+}
+
+.subject {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.subject h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #009688;
+}
+
+.subject ul {
+    list-style: none;
+    padding: 0;
+}
+
+.subject ul li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+}
+
+.subject ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
